@@ -5,7 +5,7 @@ sidebar_label: Getting Started
 ---
 
 The aim of React Native Elements is to provide an all-in-one UI kit for creating
-apps in react native. There are many great ui components made by develops all
+apps in react native. There are many great ui components made by developers all
 around open source. React Native Elements takes the hassle of assembling these
 packages together by giving you a ready made kit with consistent api and look
 and feel.
@@ -32,10 +32,12 @@ Installing React Native Elements depends on your type of react native project.
 projects include **react-native-vector-icons** out of the box, so all you need
 to do is install **react-native-elements**.
 
-```
-yarn add react-native-elements
-# or with npm
-npm install --save react-native-elements
+```bash
+# yarn
+yarn add react-native-elements@beta
+
+# npm
+npm install --save react-native-elements@beta
 ```
 
 > **Note:** If you see the `UNMET PEER DEPENDENCY` warning for
@@ -52,10 +54,12 @@ installation instructions:
 
 ### Step 1: Install react-native-elements
 
-```
-yarn add react-native-elements
-# or with npm
-npm i react-native-elements --save
+```bash
+# yarn
+yarn add react-native-elements@beta
+
+# npm
+npm i react-native-elements@beta --save
 ```
 
 ### Step 2: Install react-native-vector-icons
@@ -63,10 +67,11 @@ npm i react-native-elements --save
 If you have already installed **react-native-vector-icons** as a dependency for
 your project you can skip this step. Otherwise run the following command:
 
-```
+```bash
 # yarn
 yarn add react-native-vector-icons
-# or with npm
+
+# npm
 npm i --save react-native-vector-icons
 
 # link
